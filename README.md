@@ -10,7 +10,7 @@
 | 内容 | 位置 |
 |---|---|
 | SQL 脚本（11 个任务） | `sql/01_quality.sql` … `sql/11_channel_category.sql` |
-| 每个任务的执行结果 | `results/*.tsv` |
+| 每个任务的执行结果 | `results/*.tsv`（UTF-8 带 BOM、Tab 分隔，列说明见 `results/README.md`） |
 | 图表（3 张） | `charts/*.png`，由 `make_charts.py` 从 `results/` 生成 |
 | 分析与结论 | `analysis.md` |
 
