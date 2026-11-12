@@ -1,0 +1,10 @@
+# 数据文件约 13 MB，可用 `python generate_data.py` 重新生成（SEED 固定，结果一致）
+data/
+
+# 数据库备份文件
+backup_*.sql
+*.sql.bak
+
+# Python 缓存
+__pycache__/
+*.pyc
