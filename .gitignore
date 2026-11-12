@@ -8,3 +8,6 @@ backup_*.sql
 # Python 缓存
 __pycache__/
 *.pyc
+
+# 执行时的 stderr 输出
+results/*.err

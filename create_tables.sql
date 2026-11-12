@@ -12,8 +12,8 @@
 -- 但那会清空 5 张表的所有数据 —— 执行前务必先备份：
 --   mysqldump -u root -proot --default-character-set=utf8mb4 xiaomi_practice > backup_xiaomi_practice.sql
 --
--- 注意：orders.order_id 故意不设唯一键，因为原始数据里有重复订单，
---       需要你在 ETL 阶段自己去重。
+-- 注意：orders.order_id 不设唯一键，因为原始数据里有重复订单，
+--       去重放在 ETL 阶段做（见 sql/02_clean_view.sql）。
 -- ============================================================
 
 CREATE DATABASE IF NOT EXISTS xiaomi_practice
